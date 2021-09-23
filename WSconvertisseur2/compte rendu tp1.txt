@@ -1,0 +1,5 @@
+﻿get all devise lien ==> https://localhost:5001/api/devise
+Noter le port utilisé. Ici : 
+44360 pour IIS ; 
+5001 pour le hosting environment en https / 
+5000 pour http.

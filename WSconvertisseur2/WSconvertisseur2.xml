@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WSconvertisseur2</name>
+    </assembly>
+    <members>
+        <member name="M:WSconvertisseur2.Controllers.DeviseController.GetById(System.Int32)">
+            <summary>retourne une seule devise. </summary>
+            <returns>Http response</returns>
+            <param name="id">The id of the currency</param>
+            <response code="200">When the currency id is found</response>
+            <response code="404">When the currency id is not found</response>
+            <remarks>GetById avec gestion du notfound : on gere le 404</remarks>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:WSconvertisseur2.Controllers.DeviseController.GetAll" -->
+    </members>
+</doc>
